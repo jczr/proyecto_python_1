@@ -33,7 +33,7 @@ while operacion != "salir":
         except ZeroDivisionError:
             print("Error: No se puede dividir entre cero.")
     elif operacion == "salir":
-        print("Gracias por usar la calculadora")
+        print("Gracias por usar la calculadora, ¡hasta pronto!")
         exit()
     else:
         print("Operacion no valida")
