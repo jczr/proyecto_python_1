@@ -36,5 +36,5 @@ while operacion != "salir":
         print("Gracias por usar la calculadora, ¡hasta pronto!")
         exit()
     else:
-        print("Operacion no valida")
+        print("Operacion no valida, reitentalo")
 

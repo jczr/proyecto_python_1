@@ -7,7 +7,7 @@ try:
         texto = file.read()
 
 except FileNotFoundError:
-    print(f"El archivo {archivo} no fue encontrado.")
+    print(f"El archivo {archivo} no fue encontrado, reitente por favor.")
     exit(1)
 
 
